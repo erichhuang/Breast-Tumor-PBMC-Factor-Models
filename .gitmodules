@@ -1,0 +1,36 @@
+[submodule "mouse-dataprep"]
+	path = mouse-dataprep
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/mouse-dataprep.git
+[submodule "mouse-factors-model"]
+	path = mouse-factors-model
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/mouse-factors-model.git
+[submodule "mouse-classification-model"]
+	path = mouse-classification-model
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/mouse-classification-model.git
+[submodule "human-dataprep"]
+	path = human-dataprep
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-dataprep.git
+[submodule "human-classification-model"]
+	path = human-classification-model
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-classification-model.git
+[submodule "human-validation-a1"]
+	path = human-validation-a1
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-validation-a1.git
+[submodule "human-factor-coherence"]
+	path = human-factor-coherence
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-factor-coherence.git
+[submodule "human-validation-b"]
+	path = human-validation-b
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-validation-b.git
+[submodule "mock-factor-generation"]
+	path = mock-factor-generation
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/mock-factor-generation.git
+[submodule "human-validation-a2"]
+	path = human-validation-a2
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-validation-a2.git
+[submodule "mouse-human-mapping"]
+	path = mouse-human-mapping
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/mouse-human-mapping.git
+[submodule "human-empiric-anova"]
+	path = human-empiric-anova
+	url = git@quadra.genome.duke.edu:mouse-2-human-mammary-tumor-pbmc-project/human-empiric-anova.git
