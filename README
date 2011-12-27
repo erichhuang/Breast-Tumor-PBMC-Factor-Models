@@ -1,5 +1,7 @@
 Note that this is a superdirectory with pointers to git submodules that are housed on quadra.genome.duke.edu. The easiest way to acquire all the code and files is to "git clone --recursive git@github.com:erichhuang/Breast-Tumor-PBMC-Factor-Models.git"
 
+All of this work was done using MATLAB.
+
 RAW data available: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27567
 
 That aside, this git repo contains all the computational work published in http://www.biomedcentral.com/1755-8794/4/61.
