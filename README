@@ -1,1 +1,6 @@
 Note that this is a superdirectory with pointers to git submodules that are housed on quadra.genome.duke.edu. The easiest way to acquire all the code and files is to "git clone --recursive git@github.com:erichhuang/Breast-Tumor-PBMC-Factor-Models.git"
+
+That aside, this git repo contains all the computational work published in http://www.biomedcentral.com/1755-8794/4/61.
+With this study we took PBMC transcriptome data from transgenic MMTV-Myc mice versus age and strain-matched controls to develop a factor model that predicts the presence of a mammary tumor.
+
+We then take the transcript features that were deemed predictive in the mouse model and identify the human orthologs. We then build a new factor model, using these orthologs, in clinical samples with and without breast tumors. We evaluate these models against "mock" factor models (using genes differentially expressed in insulin response--presumably orthogonal from cancer prediction), and using the "swap" paradigm recommended in MAQCII, where you subsequently build the model on the initial "validation" set to predict the status of the initial "training" set.
