@@ -1,0 +1,1 @@
+Note that this is a superdirectory with pointers to git submodules that are housed on quadra.genome.duke.edu. The easiest way to acquire all the code and files is to "git clone --recursive git@github.com:erichhuang/Breast-Tumor-PBMC-Factor-Models.git"
