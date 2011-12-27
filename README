@@ -1,0 +1,23 @@
+Note that this is a superdirectory with pointers to git submodules that are housed on quadra.genome.duke.edu. The easiest way to acquire all the code and files is to "git clone --recursive git@github.com:erichhuang/Breast-Tumor-PBMC-Factor-Models.git"
+
+All of this work was done using MATLAB.
+
+RAW data available: http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE27567
+
+That aside, this git repo contains all the computational work published in http://www.biomedcentral.com/1755-8794/4/61.
+With this study we took PBMC transcriptome data from transgenic MMTV-Myc mice versus age and strain-matched controls to develop a factor model that predicts the presence of a mammary tumor.
+
+We then take the transcript features that were deemed predictive in the mouse model and identify the human orthologs. We then build a new factor model, using these orthologs, in clinical samples with and without breast tumors. We evaluate these models against "mock" factor models (using genes differentially expressed in insulin response--presumably orthogonal from cancer prediction), and using the "swap" paradigm recommended in MAQCII, where you subsequently build the model on the initial "validation" set to predict the status of the initial "training" set.
+
+ABSTRACT
+Background
+Transgenic mouse tumor models have the advantage of facilitating controlled in vivo oncogenic perturbations in a common genetic background. This provides an idealized context for generating transcriptome-based diagnostic models while minimizing the inherent noisiness of high-throughput technologies. However, the question remains whether models developed in such a setting are suitable prototypes for useful human diagnostics. We show that latent factor modeling of the peripheral blood transcriptome in a mouse model of breast cancer provides the basis for using computational methods to link a mouse model to a prototype human diagnostic based on a common underlying biological response to the presence of a tumor.
+
+Methods
+We used gene expression data from mouse peripheral blood cell (PBC) samples to identify significantly differentially expressed genes using supervised classification and sparse ANOVA. We employed these transcriptome data as the starting point for developing a breast tumor predictor from human peripheral blood mononuclear cells (PBMCs) by using a factor modeling approach.
+
+Results
+The predictor distinguished breast cancer patients from healthy individuals in a cohort of patients independent from that used to build the factors and train the model with 89% sensitivity, 100% specificity and an area under the curve (AUC) of 0.97 using Youden's J-statistic to objectively select the model's classification threshold. Both permutation testing of the model and evaluating the model strategy by swapping the training and validation sets highlight its stability.
+Conclusions
+
+We describe a human breast tumor predictor based on the gene expression of mouse PBCs. This strategy overcomes many of the limitations of earlier studies by using the model system to reduce noise and identify transcripts associated with the presence of a breast tumor over other potentially confounding factors. Our results serve as a proof-of-concept for using an animal model to develop a blood-based diagnostic, and it establishes an experimental framework for identifying predictors of solid tumors, not only in the context of breast cancer, but also in other types of cancer.
